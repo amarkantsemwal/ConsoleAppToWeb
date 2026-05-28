@@ -5,8 +5,8 @@ using System.Reflection.PortableExecutable;
 class Program
 {
 
-    public class EMployee { 
-    
+    public class EMployee {
+        public int EmployeeId { get; set; }
     }
     static void Main(string[] arg)
     {
